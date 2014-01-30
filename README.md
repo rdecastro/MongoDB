@@ -13,12 +13,12 @@ Note: The database will be stored in: /data/db by default
 
 - Run Mongo DB client 
 
-./mongo 
+/mongodb-osx-x86_64-2.4.9/bin/mongo 
 
 - Mongo DB commands: 
 
 > - db 
+> - db.getMongo() 
 > - show dbs
 > - use [DatabaseName]
 > - show collections
-> - db.getMongo() 
