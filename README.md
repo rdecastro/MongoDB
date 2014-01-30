@@ -17,8 +17,8 @@ Note: The database will be stored in: /data/db by default
 
 - Mongo DB commands: 
 
-> db 
-> show dbs
-> use [DatabaseName]
-> show collections
-> db.getMongo() 
+> - db 
+> - show dbs
+> - use [DatabaseName]
+> - show collections
+> - db.getMongo() 
