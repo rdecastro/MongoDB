@@ -66,3 +66,5 @@ db.test.find()
 ./mongo --port 40000
 
 db.setSlaveOk()
+
+db.test.find()
