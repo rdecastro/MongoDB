@@ -13,7 +13,7 @@ http://mongodb.org/downloads
 
 - Mongo DB commands: 
 
-> db
-> show dbs
-> use [DatabaseName]
-> show collections
+> - db
+> - show dbs
+> - use [DatabaseName]
+> - show collections
