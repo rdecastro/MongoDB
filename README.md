@@ -29,9 +29,9 @@ Note: The database will be stored in: /data/db by default
 
 - Replica Sets
 
-sudo ./mongod --dbpath /data/primaryDB --port 30000 --replSet "demo"
-sudo ./mongod --dbpath /data/secondaryDB --port 40000 --replSet "demo"
-sudo ./mongod --dbpath /data/arbiterDB --port 40000 --replSet "demo"
+> - sudo ./mongod --dbpath /data/primaryDB --port 30000 --replSet "demo"
+> - sudo ./mongod --dbpath /data/secondaryDB --port 40000 --replSet "demo"
+> - sudo ./mongod --dbpath /data/arbiterDB --port 40000 --replSet "demo"
 
 ./mongo --port 30000
 
