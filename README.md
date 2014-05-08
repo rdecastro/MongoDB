@@ -2,6 +2,9 @@ MongoDB
 =======
 
 - No Schema
+- Single document write scope
+- Eventual consistency
+- Capped Collection
 
 - Download the 64-bit version from: 
 
