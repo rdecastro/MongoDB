@@ -1,6 +1,8 @@
 MongoDB
 =======
 
+- No Schema
+
 - Download the 64-bit version from: 
 
 http://mongodb.org/downloads
