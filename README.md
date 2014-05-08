@@ -6,6 +6,8 @@ MongoDB
 - Eventual consistency
 - Capped Collection
 
+Installation Instructions
+=========================
 - Download the 64-bit version from: 
 
 http://mongodb.org/downloads
@@ -22,13 +24,14 @@ Note: The database will be stored in: /data/db by default
 
 - Run Mongo DB client 
 
-./mongo 
+> ./mongo 
+> ./mongod -f path/mongod.conf
 
 - Mongo DB commands: 
 
-> - db 
-> - db.getMongo() 
-> - show dbs
+> - db // get current db
+> - db.getMongo() // get current mongodb server 
+> - show dbs 
 > - use [DatabaseName]
 > - show collections
 
